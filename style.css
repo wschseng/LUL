@@ -196,14 +196,15 @@ background-position: 0 -70px;
     height: 105px;
     top: 308px;
     left: 228px;
+	opacity: 0;
 }
 
 .ds4 .stick {
     position: absolute;
     background: url(ps4-assets/sticks.svgz);
-	border: 1px solid rgba(0, 0, 0, 0.1);
     height: 94px;
     width: 94px;
+	opacity: 0;
 }
 
 .ds4 .stick.pressed.left {
