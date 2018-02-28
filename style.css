@@ -1,6 +1,3 @@
-/*Font Imports*/
-@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
-
 /*BEGIN PS4 Controller Styling*/
 .controller.ds4 {
     background: url(ps4-assets/base.svgz);
@@ -196,15 +193,13 @@ background-position: 0 -70px;
     height: 105px;
     top: 308px;
     left: 228px;
-	opacity: 0;
 }
 
 .ds4 .stick {
     position: absolute;
-    background: url(ps4-assets/sticks.svgz);
+    background: url(ps4-white-assets/sticks.svgz);
     height: 94px;
     width: 94px;
-	opacity: 0;
 }
 
 .ds4 .stick.pressed.left {
@@ -282,3 +277,42 @@ background-position: 0 -70px;
 }
 
 /*END PS4 Controller Styling*/
+
+/*BEGIN PS4 White Controller Styling*/
+.controller.ds4.white {
+    background-image: url(ps4-white-assets/base.svgz);
+}
+
+.ds4.white.disconnected {
+    background: url(ps4-assets/disconnected.svgz);
+}
+
+.ds4.white .trigger {
+    background-image: url(ps4-white-assets/triggers.svgz);
+}
+
+.ds4.white .bumper {
+    background-image: url(ps4-white-assets/bumper.svgz);
+}
+
+.ds4.white .touchpad.pressed {
+    background-image: url(ps4-white-assets/touchpad.svgz);
+}
+
+.ds4.white .back, .ds4 .start {
+    background-image: url(ps4-white-assets/start.svgz);
+}
+
+.ds4.white .button {
+    background-image: url(ps4-white-assets/face.svgz);
+}
+
+.ds4.white .stick {
+    background-image: url(ps4-white-assets/sticks.svgz);
+}
+
+.ds4.white .face {
+    background-image: url(ps4-white-assets/dpad.svgz);
+}
+
+/*END PS4 White Controller Styling*/
